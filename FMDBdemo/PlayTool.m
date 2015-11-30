@@ -28,9 +28,10 @@ static FMDatabase *_db;
     
 }
 
+//根据id是删除对应的值
 + (void)deleteSqlite{
-    
-    [_db executeUpdate:@"DELETE FROM yt_play WHERE NAME=99"];
+  
+    [_db executeUpdate:@"DELETE FROM yt_play WHERE id < 70 "];
 
     
 }

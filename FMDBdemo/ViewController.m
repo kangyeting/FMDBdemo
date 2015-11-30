@@ -40,6 +40,7 @@
 
 }
 
+//根据id是删除对应的值
 - (IBAction)deleteBtn:(id)sender {
     
     [PlayTool deleteSqlite];
