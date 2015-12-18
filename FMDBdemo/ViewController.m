@@ -20,6 +20,7 @@
 
 
 }
+//插入
 - (IBAction)instert:(id)sender {
     for (int i = 0; i<100; i++) {
         Play *play = [[Play alloc]init];
