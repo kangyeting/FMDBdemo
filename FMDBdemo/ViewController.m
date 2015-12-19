@@ -4,7 +4,7 @@
 //
 //  Created by 康叶廷 on 15/11/27.
 //  Copyright © 2015年 康叶廷. All rights reserved.
-//
+//  FMDB
 
 #import "ViewController.h"
 #import "PlayTool.h"
@@ -20,6 +20,7 @@
 
 
 }
+
 //插入
 - (IBAction)instert:(id)sender {
     for (int i = 0; i<100; i++) {
@@ -31,9 +32,9 @@
     NSLog(@"插入成功");
 
 }
-
+ //点击查询数据库结果
 - (IBAction)selectBtn:(id)sender {
-    //点击查询数据库结果
+   
     NSArray *arr = [PlayTool plays];
     for (Play *play in arr) {
         NSLog(@"NAME = %@,PRICE = %f",play.name,play.price);
