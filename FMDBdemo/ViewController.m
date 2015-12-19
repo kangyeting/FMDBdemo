@@ -21,7 +21,7 @@
 
 }
 
-//插入
+//插入一行随机数
 - (IBAction)instert:(id)sender {
     for (int i = 0; i<100; i++) {
         Play *play = [[Play alloc]init];
